@@ -4,6 +4,7 @@ import scipy as sp
 import matplotlib.pyplot as plt
 from skimage.filters import sobel, threshold_adaptive, threshold_li
 #im = Image.open('sample1.jpg')
+#im = Image.open('sample2.jpg')
 im = Image.open('sample2.jpg')
 im = np.asarray(im)
 threshold = threshold_li(im) #60
